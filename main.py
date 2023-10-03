@@ -18,6 +18,7 @@ travel_log = [
 
 # The function that will allow new countries to the travel_log. 
 def add_new_country(country, visits, list_of_cities):
+  “”“Note: this is a Docstring. It can give a hint when calling the function.”“”
   dic = {}
   dic["country"] = country
   dic["visits"] = visits
